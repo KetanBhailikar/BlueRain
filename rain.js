@@ -6,7 +6,7 @@ let drawDiv = false
 let pressedStart = false
 
 function setup(){
-    pixelDensity(2)
+    pixelDensity(1)
     createCanvas(windowWidth,windowHeight)
     loadSounds()
     numOfDrops = random(500)
