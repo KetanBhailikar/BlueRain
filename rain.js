@@ -7,7 +7,7 @@ let pressedStart = false
 
 function setup(){
 
-    const canvasElt = createCanvas(windowWidth, windowHeight).elt;
+    const canvasElt = createCanvas(600, 400).elt;
     canvasElt.style.width = '100%', canvasElt.style.height = '100%';
     loadSounds()
     numOfDrops = random(500)
