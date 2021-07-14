@@ -6,9 +6,7 @@ let drawDiv = false
 let pressedStart = false
 
 function setup(){
-
-    const canvasElt = createCanvas(600, 400).elt;
-    canvasElt.style.width = '100%', canvasElt.style.height = '100%';
+    createCanvas(windowWidth,windowHeight)
     loadSounds()
     numOfDrops = random(500)
     gravity = createVector(0,0.2)
