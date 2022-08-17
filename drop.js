@@ -1,3 +1,4 @@
+// This file contains the drop class that is used to make the rain.
 class drop{
     constructor(){
         this.position = createVector(random(windowWidth),random(-100,windowHeight))
